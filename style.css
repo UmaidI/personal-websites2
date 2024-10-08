@@ -1,0 +1,82 @@
+/* cadet blue and seagreen */
+body{
+    background-color: cadetblue;
+}
+
+hr{
+   border-color:black;
+}
+header{
+    display: flex;
+    background-color: seagreen;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4%;
+}
+#top-nav > a{
+    color: black;
+    text-decoration: none;
+    
+}
+h2{
+    display: block;
+    
+}
+p{
+    display: inline-block;
+    width: 75%;
+    font-size: large;
+}
+
+div{
+    display: inline-block;   
+    background-color: seagreen; 
+}
+
+img{
+    width: 175px;
+    height: 200px;
+    float: right;
+}
+footer{
+    clear:both;
+    display: flex;
+    justify-content:flex-end;
+}
+.foot{
+    margin-top: 250px;
+}
+#box{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color: seagreen;
+    margin-top: 150px;
+    border-radius: 4%;
+    
+}
+.box2{ 
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;  
+    background-color: seagreen;
+    margin-top: 150px;
+   border-radius: 4%;
+}
+
+@media (max-width: 715px){
+    div{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+@media (min-width: 319px ) and (max-width: 580px){
+    #top-nav > a{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
